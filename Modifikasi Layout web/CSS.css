@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url("Wallpaper3.jpg");
+  background-size: 100%;
+}
+a:link{
+	color:red;
+}
+a:visited{
+	color:blue;
+}
+a:hover{
+	color:green;
+}
+a:active{
+	color:purple;
+}
+
+/* Header */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color:red;
+  background-image: url("Sirius.the.Jaeger.full.2358321.jpg");
+  background-repeat:no-repeat;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+.rekom{
+	background-image:url("cAN5QD.png");
+	background-repeat:no-repeat;
+	margin-left: 20px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background-color: orange;
+  height: 880px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: black;
+  padding: 20px;
+  height: 880px;
+}
+.popular{
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	background-image:url("_w850.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-top: 50px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-image: url("");
+  background-repeat: no-repeat;
+  size: 70%;
+  width: 100%;
+  padding: 20px;
+}
+.fake{
+	size: 70%;
+	width: 100%;
+	padding: 20px;
+	height:200px;
+	margin-top: 60px;
+	background-image: url("527-SeriesThumb_OPM_400x320.jpg");
+	background-repeat: no-repeat;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  background-image: url("3c7afc1b68c0f8cc367dd9d0f1f383de.jpg");
+  margin:20px;
+}
+.kni{
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+	background-image:url("aaking-500x500.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-top: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Responsive layout  */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
